@@ -4,6 +4,7 @@
 # The class should also have an winter_season method that increases the rings attribute by 1.
 # Hint: remember that with object oriented programming the object holds values in the attributes to describe it's current state. Even when we aren't reading it's attributes, they should be up to date.
 class Tree
+  
 end
 
 # Driver code - don't touch anything below this line.

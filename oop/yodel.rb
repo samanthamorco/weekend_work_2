@@ -9,7 +9,16 @@
 # constructor accordingly.
 
 class Yodel
+  attr_accessor :segment, :count
 
+  def initialize(hash)
+    @segment = hash[:segment]
+    @count = hash[:count]
+  end
+
+  def articulate
+    @segment * @count
+  end
 end
 
 
